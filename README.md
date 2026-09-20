@@ -1,25 +1,35 @@
 # Shopify Store Management System
 
+An open-source Shopify-inspired e-commerce management platform built with modern web technologies.
+
 ## Overview
 
-An open-source e-commerce management solution built to help online businesses manage products, customers, orders, and store operations efficiently.
+Shopify Store Management System is designed to help developers and small businesses manage products, customers, orders, and store operations through a clean and scalable interface.
+
+The project demonstrates modern software development practices including responsive UI, component-based architecture, authentication workflows, and scalable application structure.
 
 ## Features
 
 - Product management
 - Customer management
-- Order workflow
+- Order management
 - Store dashboard
-- Responsive UI
-- Modern web architecture
+- User authentication
+- Responsive design
+- Modern UI components
+- Developer-friendly architecture
 
 ## Technology Stack
 
-- React / Next.js
+- Next.js
+- React
+- TypeScript
 - Node.js
-- Database integration
-- API-based architecture
+- Modern CSS
 
-## License
+## Installation
 
-MIT License
+Clone the repository:
+
+```bash
+git clone https://github.com/ahmadhacker238-ux/Shopify-Store-Management-System.git

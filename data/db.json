@@ -1,0 +1,74 @@
+{
+  "users": [],
+  "stores": [],
+  "products": [],
+  "orders": [],
+  "collections": [],
+  "discounts": [
+    {
+      "id": "b2010485-8abe-413e-8e85-789bc2fe3840",
+      "storeId": "c1df828e-aef6-4342-a2f9-f1cad3580ea0",
+      "code": "AHMADWELC",
+      "type": "percentage",
+      "value": 20,
+      "minOrder": null,
+      "active": true,
+      "usageCount": 0,
+      "createdAt": "2026-09-14T13:40:52.657Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "f802e55b-0683-4216-a2ea-6d0ccadc0a3e",
+      "storeId": "c1df828e-aef6-4342-a2f9-f1cad3580ea0",
+      "productId": "de616246-4e0c-4f90-a2ee-e1ca530dd545",
+      "customerName": "Ahmad Naseem",
+      "customerEmail": "ahmadnaseeman@gmail.com",
+      "rating": 5,
+      "title": "Great Quality",
+      "comment": "I like Shoes",
+      "status": "approved",
+      "createdAt": "2026-09-19T08:35:36.309Z"
+    }
+  ],
+  "customers": [],
+  "returnRequests": [],
+  "passwordResets": [
+    {
+      "id": "e39fbb8b-00b3-4f7a-bd59-67a4478c3b8a",
+      "accountType": "merchant",
+      "userId": "aae5b600-3e42-4b02-b1e2-40ab3e4b126b",
+      "email": "ahmad@gmail.com",
+      "tokenHash": "816fab1bedaabe43dffa3b123f0838391bcaf0d3cf606a20a2d1b09092212a72",
+      "createdAt": "2026-09-14T14:30:17.329Z",
+      "expiresAt": "2026-09-14T14:45:17.329Z"
+    }
+  ],
+  "emailChallenges": [],
+  "pages": [],
+  "media": [],
+  "abandonedCheckouts": [
+    {
+      "id": "chk_864794796a7a057ee4ad",
+      "storeId": "c1df828e-aef6-4342-a2f9-f1cad3580ea0",
+      "customerEmail": "ahmadnaseeman@gmail.com",
+      "customerName": "Ahmad Naseem",
+      "items": [
+        {
+          "productId": "c5ed0cfb-70a2-4a21-be92-bbf37449a1eb",
+          "title": "Shirts",
+          "price": 2500,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2500,
+      "recoveryToken": "rec_1e8bf618d0fdcaa53382448da4b4f975",
+      "recovered": true,
+      "createdAt": "2026-09-19T08:33:55.093Z",
+      "updatedAt": "2026-09-19T08:36:16.346Z",
+      "customerPhone": "03056967210",
+      "recoveredOrderId": "ORD-72BDA0CE8089"
+    }
+  ],
+  "newsletterSubscribers": []
+}

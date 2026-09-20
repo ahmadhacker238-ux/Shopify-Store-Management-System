@@ -1,0 +1,26 @@
+{
+  "name": "shoply-local",
+  "version": "1.5.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "verify": "node scripts/verify.mjs",
+    "test:v1.5": "node scripts/test-v1.5.mjs",
+    "test:editor": "node scripts/test-wordpress-editor.mjs"
+  },
+  "dependencies": {
+    "next": "^16.3.5",
+    "nodemailer": "^6.10.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
